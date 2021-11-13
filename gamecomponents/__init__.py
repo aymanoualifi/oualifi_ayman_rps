@@ -1,4 +1,4 @@
-from gameComponents import gameVars
+from gamecomponents import gameVars
 
 
 def winorlose(status):
