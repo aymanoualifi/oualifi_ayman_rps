@@ -1,6 +1,5 @@
 from gamecomponents import gameVars
 
-
 def winorlose(status):
     print("you " + status)
 

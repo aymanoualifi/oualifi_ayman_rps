@@ -1,33 +1,34 @@
 from gamecomponents import gameVars
 
- def gamecomparison(computer):
-    print("computer chose:" + gamecomparison.computer)
 
+def gameResult(computer):
+    print("Computer chose: " + computer)
 
-  if gamecomparison.computer == gameVars.player:
-        # tie - nothing else to compare, so it'll exit
-        print("tie! try again")
+    if (computer == gameVars.player):
+        print("A tie? Try again!")
 
-    elif gameVars.player == "rock":
-        if gamecomparison.computer == "paper":
-            print("you lose!")
+    elif (gameVars.player == "rock"):
+        if (computer == "paper"):
+            print("you lost!")
             gameVars.playerLives = gameVars.playerLives - 1
         else:
-            print("you win!")
+            print("nice!")
             gameVars.computerLives = gameVars.computerLives - 1
 
-    elif gameVars.player == "paper":
-        if gamecomparison.computer == "scissors":
-            print("you lose!")
+    elif (gameVars.player == "paper"):
+        if (computer == "scissors"):
+            print("you lost!")
             gameVars.playerLives = gameVars.playerLives - 1
         else:
-            print("you win!")
+            print("You're killing it!")
             gameVars.computerLives = gameVars.computerLives - 1
 
-    elif gameVars.player == "scissors":
-        if gamecomparison.computer == "rock":
-            print("you lose!")
+    elif (gameVars.player == "scissors"):
+        if (computer == "rock"):
+            print("You lost!")
             gameVars.playerLives = gameVars.playerLives - 1
         else:
-            print("you win!")
+            print("Good one!")
             gameVars.computerLives = gameVars.computerLives - 1
+
+
