@@ -1,4 +1,4 @@
-
+from gamecomponents import gameVars
   def gamecomparison(computer):
     print("computer chose:" + gamecomparison.computer)
 
