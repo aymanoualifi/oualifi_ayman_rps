@@ -1,7 +1,7 @@
 from gamecomponents import gameVars
 
 
-def gameResult(computer):
+def gameComparison(computer):
     print("Computer chose: " + computer)
 
     if (computer == gameVars.player):
