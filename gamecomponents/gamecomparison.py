@@ -9,7 +9,7 @@ from gamecomponents import gameVars
         print("tie! try again")
 
     elif gameVars.player == "rock":
-        if gameVars.computer == "paper":
+        if gamecomparison.computer == "paper":
             print("you lose!")
             gameVars.playerLives = gameVars.playerLives - 1
         else:
@@ -17,7 +17,7 @@ from gamecomponents import gameVars
             gameVars.computerLives = gameVars.computerLives - 1
 
     elif gameVars.player == "paper":
-        if gameVars.computer == "scissors":
+        if gamecomparison.computer == "scissors":
             print("you lose!")
             gameVars.playerLives = gameVars.playerLives - 1
         else:
@@ -25,7 +25,7 @@ from gamecomponents import gameVars
             gameVars.computerLives = gameVars.computerLives - 1
 
     elif gameVars.player == "scissors":
-        if gameVars.computer == "rock":
+        if gamecomparison.computer == "rock":
             print("you lose!")
             gameVars.playerLives = gameVars.playerLives - 1
         else:
