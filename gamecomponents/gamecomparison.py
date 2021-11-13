@@ -1,5 +1,9 @@
 from gamecomponents import gameVars
 
+ def gamecomparison(computer):
+    print("computer chose:" + gamecomparison.computer)
+
+
   if gamecomparison.computer == gameVars.player:
         # tie - nothing else to compare, so it'll exit
         print("tie! try again")
