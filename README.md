@@ -1,4 +1,4 @@
-![alt text](rock-paper-scissors-reference.jpg)
+
 
 ## Rock Paper Scissors - Python text-based take on a classic!
 
